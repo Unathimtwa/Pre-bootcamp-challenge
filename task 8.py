@@ -1,6 +1,11 @@
 number = input("Enter any number: ")
-time = int(number) / 60
-second = int(time) % 60
+time = (int(number) // 60)
+minute = (int(number) % 60)
 
-print(second)
+print(str(time) + " hours, " + str(minute) + " minutes")
+
+
+
+
+
 

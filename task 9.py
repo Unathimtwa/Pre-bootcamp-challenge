@@ -1,11 +1,14 @@
-list= range(1000)
+numbers = []
 a = 1
+
 while a < 1000:
     if a % 3 == 0:
-        do som
+        numbers.append(a)
     elif a % 5 == 0:
-        do ano
-    a = a +1
+        numbers.append(a)
+    a += 1
+
+print(sum(numbers))
 
 
 

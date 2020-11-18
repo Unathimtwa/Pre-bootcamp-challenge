@@ -1,4 +1,4 @@
-# Calculating area of a triangle is dependent on the base and height in this formula 1/2.bh
+# Calculating area of a triangle is dependent on the base and height in this formula - Area = 1/2.bh
 # And so the user will be prompted to enter all three sides of the triangle to determine area.
 
 Triangle_base = input("enter base: ")
