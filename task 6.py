@@ -1,12 +1,11 @@
-number1 = input("enter first number: ")
-number2 = input("enter second number: ")
-number3 = input("enter third number: ")
 
-if number1 < number2 < number3:
-    print(number3)
-elif number1 < number2 > number3:
-    print(number2)
-else:
-    print(number1)
+def max_of_three_numbers(n1, n2, n3):
+    if n1 < n2 < n3:
+        return n3
+    elif n1 < n2 > n3:
+        return n2
+    else:
+        return n1
 
+print(max_of_three_numbers(2, 12, 6))
 

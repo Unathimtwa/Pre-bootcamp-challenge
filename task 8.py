@@ -1,10 +1,11 @@
-number = input("Enter any number: ")
-time = (int(number) // 60)
-minute = (int(number) % 60)
 
-print(str(time) + " hours, " + str(minute) + " minutes")
+def time(number):
+    hour = number// 60
+    minute = number % 60
+    result = (str(hour) + " hours, " + str(minute) + " minutes")
+    return result
 
-
+print(time(40))
 
 
 
