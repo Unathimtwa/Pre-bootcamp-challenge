@@ -1,11 +1,12 @@
 
 def max_of_three_numbers(n1, n2, n3):
     if n1 < n2 < n3:
-        return n3
+        print(n3)
     elif n1 < n2 > n3:
-        return n2
+        print(n2)
     else:
-        return n1
+        print(n1)
+    return max_of_three_numbers(n1, n2, n3)
 
-print(max_of_three_numbers(2, 12, 6))
+(max_of_three_numbers(2, 12, 6))
 

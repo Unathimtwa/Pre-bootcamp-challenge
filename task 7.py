@@ -1,11 +1,8 @@
-temperature = int(input("enter temperature in degrees celsius :"))
-celsius = (temperature - 32) * 5
-farhenheit = temperature * 9 / 5 + 32
-
-print(celsius)
-print(farhenheit)
-
 def temperature(temp):
-    convert_temperature_to_Fahrenheit = temp * 9/ 5 + 32
-    covert_temperature_to_Celcius = (temp * 9) * 5 +32
-    return convert_temperature_to_Fahrenheit
+    convert_temperature_to_celcius = (int(temp) - 32) * 5/9
+    convert_temperature_to_fahrenheit = int(temp) * (9 / 5) + 32
+    print(convert_temperature_to_fahrenheit)
+    print(convert_temperature_to_celcius)
+
+    return temperature(temp)
+temperature(30)
